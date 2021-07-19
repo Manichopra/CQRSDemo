@@ -10,18 +10,7 @@ namespace CQRSDemo
 	{
 		static void Main(string[] args)
 		{
-			
-			// To show a list of all products
-			var allProducts = new GetProductsListQuery();
 
-			// To create a new product
-			new CreateProductCommand()
-			{
-				Name = "Inception",
-				Price = 22.00
-			};
-
-			Console.ReadKey();
 		}
 	}
 }
